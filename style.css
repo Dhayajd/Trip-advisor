@@ -221,3 +221,28 @@ input{
     justify-content:space-between;
     gap: 12px;
 }
+/* Media Quries */
+@media screen and (max-width:800px) {
+    body{
+    font-size:10px;
+}
+.section2,.section3{
+    display: none;
+}
+.header{
+   justify-content: center;  
+   padding: 0%;  
+}
+.block img{
+    height: 80%;
+}
+.block{
+    height: 250px;
+}
+.foot1{
+    margin: 5%;
+}
+.footer{
+    height: 400px;
+}
+}
